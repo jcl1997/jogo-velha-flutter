@@ -223,7 +223,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void setJoga(int index) {
-    if (fimJogo) {
+    if (fimJogo || celula[index].isNotEmpty) {
       return;
     }
 
